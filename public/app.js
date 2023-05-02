@@ -77,7 +77,7 @@ profundidad.addEventListener("change", () =>{
 
     
 
-    document.getElementById('myrangevalue7').innerHTML += "M"
+    document.getElementById('myrangevalue7').innerHTML += " M"
     
     
 });
@@ -249,11 +249,11 @@ function revalue(){
 
         document.getElementById('myrangevalue2').innerHTML = parseFloat(HorizontalSlider.value * 0.7).toFixed(2);
     
-         document.getElementById('myrangevalue2').innerHTML += "M"
+         document.getElementById('myrangevalue2').innerHTML += " M"
 
          document.getElementById('myrangevalue').innerHTML = parseFloat(AlturaSlider.value * 0.7).toFixed(2);
 
-    document.getElementById('myrangevalue').innerHTML += "M"
+    document.getElementById('myrangevalue').innerHTML += " M"
 
     document.getElementById('myrangevalue3').innerHTML = Number(Horizontaloffset.value) + 1
 
@@ -949,7 +949,7 @@ function loadcuernos(){
 
     let valoranchocajon = (anchorapido - restaancha)/((Number(Horizontaloffset.value)+1))
 
-    document.getElementById('alturabox').innerHTML = valoranchocajon.toFixed(3)+"M" 
+    document.getElementById('alturabox').innerHTML = valoranchocajon.toFixed(3)+" M" 
 
 
     
@@ -975,7 +975,7 @@ function loadcuernos(){
 
     let valorcajonalto = sumaseis
     
-    document.getElementById('anchobox').innerHTML = valorcajonalto.toFixed(3)+"M"
+    document.getElementById('anchobox').innerHTML = valorcajonalto.toFixed(3)+" M"
 
 
     /* localStorage.setItem("paypal",preprecio) */
@@ -1233,16 +1233,16 @@ let elementosdos = document.querySelectorAll('input')
 
     
 
-             document.getElementById('myrangevalue7').innerHTML += "M"
+             document.getElementById('myrangevalue7').innerHTML += " M"
              
 
              document.getElementById('myrangevalue2').innerHTML = parseFloat(HorizontalSlider.value * 0.7).toFixed(2);
     
-         document.getElementById('myrangevalue2').innerHTML += "M"
+         document.getElementById('myrangevalue2').innerHTML += " M"
 
          document.getElementById('myrangevalue').innerHTML = parseFloat(AlturaSlider.value * 0.7).toFixed(2);
 
-            document.getElementById('myrangevalue').innerHTML += "M"
+            document.getElementById('myrangevalue').innerHTML += " M"
 
             document.getElementById('myrangevalue3').innerHTML = Number(Horizontaloffset.value) + 1
 
